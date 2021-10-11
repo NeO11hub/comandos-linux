@@ -3,5 +3,12 @@ Bitácora de comandos linux, visto en el cuatrimestre de Sistemas Operativos
 
 Comando | Descripción | Ejemplo
 -----|------|-----
-asdasdasd | asdasdasd | wwwww
-asdasdasdasd | 123123123 | weqweqwe
+ip addr | Interfaces de red que tiene la maquina | ip addr > ip de tu computadora
+ping 8.8.8.8 | Muestra paquetes recibidos y perdidos | ping 8.8.8.8 > muestra los paquetes, latencia y ms de tu internet
+sudo|Dar permisos de administrador para descargar paquetes o programas|sudo dkpg -i google-chrome-stable_current_amd64.deb
+apt|Permiso de descargar paquetes|sudo apt install python3
+install|Instala paquetes|sudo apt install python3
+cd|Moverse en los directorios|cd Descargas/
+cd..|Retroceder un directorio|cd.. Descargas/
+ls|Lista de los archivos en un directorio|achavarrig611@ubuntu-ulacit ~$ ls > muestra el contenido del directorio
+dpkg|Instala paquetes|dpkg -i google-chrome-stable_current_amd64.deb
