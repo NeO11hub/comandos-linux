@@ -21,3 +21,9 @@ whoami|Muestra quien es en el ordenador|whoami > achavarrig611
 man|Muestra el manual de un comando|man sudo
 sudo su o su root |Ir de forma root|sudo su / su root
 exit|Salir de la terminal|exit
+sudo useradd [user] -m |Añadir un usuario | sudo useradd NeO -m 
+nano|Bloc de notas| nano > 123.txt
+cat|Leer datos y mostrar su contenido de ello|cat /var/log/syslog
+tail|Mostrar partes de un comando|tail -n 10 /var/loh/syslog
+head|Mostrar la parte principal de algun documento|head -n 10 /var/log/syslog | more
+cat more |Muestra mas contenido del comando que queremos capturar|cat /var/log/syslog | more 
