@@ -48,7 +48,7 @@ mount|Monta cierto dispositivos|mount disk1
 Gparted|Administra las partes del disco duro del sistema|Gparted
 kill -9 $PID|Mata un proceso|kill -9 $PID Firefox
 ps -aux|Para ver todos los IDS de los programas o los procesos|ps -aux 
-greg|Mostrar localizacion de los procesos|grep -help
+grep|Mostrar localizacion de los procesos|grep -help
 pwd|Te muestra donde esta uno y en que ruta|pwd > achavarrig611/home
 docker ps -a|Es para ver los contenedores|docker ps -a
 docker run|Corre el docker en un contenedor en un puerto localhost que en este caso es 8080|docker run -d -p 8080:80 nextcloud
@@ -69,4 +69,18 @@ rm [prueba] -Rf|Forzar que quite la carpeta|rm [prueba] -Rf
 git clone|Comando para descargar repositorios github|git clone https://github.com/mortasoft/linux-scripts
 curl|Envia datos a la paginas web|curl -X GET -L [URL]
 --------|Comando para archivos|--------
-wc
+wc|Contea palabras|wc /var/log/syslog -l --> lines
+more /var/log/syslog|Muestra por paginas el contenido pero con mas contenido por el more|more /var/log/syslog
+less /var/log/syslog|Muestra por paginas el contenido pero con mas contenido por el less|less /var/log/syslog
+ls -l / -R |Muestra todo lo del escritorio todo lo que tiene|ls -l / -R 
+grep|Busca una cadena de texto|grep -r "linux" /var/log/syslog
+grep -r "linux" /var/log/syslog|Busca el texto linux en la carpeta /var/log/syslog pero dentro de los archivos.|grep -r "linux" /var/log/syslog 
+find|Busca un archivo|find /home/mortasoft -name index.html
+history pipe grep curl|Busca en el historial si hay una palabra curl|history pipe grep curl
+reboot|Reinicia el equipo|reboot
+shutdown|Apaga el equipo|shutdown
+pdunite|Une pdfs|pdfunite [pdf que quiere poner] [nombre del pdf unido] 01.pdf 02.pdf 03.pdf  salida.pdf
+pdfseparate -f|Separa pdfs|pdfseparate -f [numero de la pdf] -l 5 [nombre del archivo unido] [nombre del pdf final] 1  salida.pdf   resultado_%d.pdf
+sudo apt-get install ocrfeeder tesseract-ocr tesseract-ocr-spa para instalarlo
+
+
