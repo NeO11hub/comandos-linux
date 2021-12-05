@@ -68,4 +68,5 @@ rm [archivo] -R |Quita una carpeta|rm [prueba] -R
 rm [prueba] -Rf|Forzar que quite la carpeta|rm [prueba] -Rf
 git clone|Comando para descargar repositorios github|git clone https://github.com/mortasoft/linux-scripts
 curl|Envia datos a la paginas web|curl -X GET -L [URL]
-|Comando para archivos|
+--------|Comando para archivos|--------
+wc
